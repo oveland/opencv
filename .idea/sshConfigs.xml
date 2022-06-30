@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="52.38.73.219" id="2948877f-6ab0-4af9-95c7-52927ad3a531" keyPath="$PROJECT_DIR$/../../../PCW_oveland_ssh.pem" port="22" customName="PCW" nameFormat="CUSTOM" username="ubuntu" useOpenSSHConfig="true">
+        <option name="customName" value="PCW" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+*/out.mp4
+__pycache__/
+
+#src/detectors/yolov3/yolov3-320.weights
+#src/detectors/yolov3/yolov3-tiny.weights
+
+src/vehicles/yolov3/data.csv
+src/vehicles/yolov3/out.mp4
+
+src/detectors/**/*.onnx
+src/detectors/**/*.weights

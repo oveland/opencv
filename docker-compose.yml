@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  opencv:
+    container_name: opencv
+    build:
+      context: .docker
+      args:
+        - time_zone=America/Bogota
+    environment:
+      FOO: 'bar'
+    volumes:
+      - ./:/app/
+    restart: always
+    command: /bin/bash -c "tail -f /dev/null"
